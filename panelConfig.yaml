@@ -28,9 +28,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 500}
-        - {color: "red", level: 1000}
+        - {color: "green", level: 1}
+        - {color: "red", level: 0}
     link: *grafana-home
   ap_it:
     dataRef: "test-data-large-cos"
@@ -41,9 +40,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds:
-        - {color: "semi-dark-green", level: 0}
-        - {color: "orange", level: 400}
-        - {color: "red", level: 800}
+        - {color: "green", level: 1}
+        - {color: "red", level: 0}
     link: *grafana-home
   ap_center:
     dataRef: "test-data-large-cos"
