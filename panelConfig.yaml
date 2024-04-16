@@ -22,7 +22,8 @@ cells:
     fillColor:
       gradientMode: "hue"
       thresholds: *ap
-    linkref: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
     
   ap_odessey:
     dataRef: "ap_odessey"
