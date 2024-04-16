@@ -34,7 +34,7 @@ cells:
       gradientMode: "hue"
       thresholds: *ap
     link:
-      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42046/dashboard?var-probe=$__all&var-job=ap_odessey&var-instance=172.16.91.52"
 
   ap_nebula:
     dataRef: "ap_nebula"
@@ -45,7 +45,7 @@ cells:
       gradientMode: "hue"
       thresholds: *ap
     link:
-      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42030/dashboard?var-probe=$__all&var-job=ap_nebula&var-instance=172.16.91.53"
 
   ap_rocket:
     dataRef: "ap_rocket"
