@@ -33,6 +33,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_nebula:
     dataRef: "ap_nebula"
@@ -42,6 +44,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_rocket:
     dataRef: "ap_rocket"
@@ -51,6 +55,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_makerspace:
     dataRef: "ap_makerspace"
@@ -60,6 +66,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_gizmo:
     dataRef: "ap_gizmo"
@@ -69,6 +77,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_silentroom:
     dataRef: "ap_silentroom"
@@ -78,6 +88,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_keuken:
     dataRef: "ap_keuken"
@@ -87,6 +99,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_reception:
     dataRef: "ap_reception"
@@ -96,6 +110,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_orbit:
     dataRef: "ap_orbit"
@@ -105,6 +121,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_bender:
     dataRef: "ap_bender"
@@ -114,6 +132,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_arena:
     dataRef: "ap_arena"
@@ -123,6 +143,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_dory:
     dataRef: "ap_dory"
@@ -132,6 +154,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_grasvlakte:
     dataRef: "ap_grasvlakte"
@@ -141,6 +165,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_poly:
     dataRef: "ap_poly"
@@ -150,6 +176,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_front:
     dataRef: "ap_front"
@@ -159,6 +187,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_center:
     dataRef: "ap_center"
@@ -168,6 +198,8 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds: *ap
+    link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
 
   ap_back:
     dataRef: "ap_back"
@@ -178,3 +210,5 @@ cells:
       labelColor:
         gradientMode: "hue"
         thresholds: *ap
+      link:
+      url: "https://grafana.inthepocket.net/a/grafana-synthetic-monitoring-app/checks/42042/dashboard?var-probe=$__all&var-job=ap_it&var-instance=172.16.91.51"
