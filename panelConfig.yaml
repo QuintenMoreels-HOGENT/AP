@@ -11,7 +11,7 @@ anchorLinks:
 #------------------------------------------------------------------------------
 # Panel Config
 
-cellIdPreamble: ""
+cellIdPreamble: "cell-"
 cells: 
 
   ap_it:
