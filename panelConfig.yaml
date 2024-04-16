@@ -4,78 +4,175 @@
 # YAML Aliases to simplify maintenance
 
 anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
+  - threshold: &ap
+      - {color: "green", level: 1}
+      - {color: "red", level: 0}
 
 #------------------------------------------------------------------------------
 # Panel Config
 
-cellIdPreamble: "cell-"
+cellIdPreamble: ""
 cells: 
-  drawio:
-    link:
-      url: "https://app.diagrams.net/?p=svgdata"
-  docs:
-    link:
-      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
-  ap_grasvlakte:
-    dataRef: "test-data-large-sin"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "green", level: 1}
-        - {color: "red", level: 0}
-    link: *grafana-home
+
   ap_it:
-    dataRef: "test-data-large-cos"
+    dataRef: "ap_it"
     label:
-      separator: "cr"
       units: "ops"
       decimalPoints: 0
-    labelColor:
+    fillColor:
       gradientMode: "hue"
-      thresholds:
-        - {color: "green", level: 1}
-        - {color: "red", level: 0}
-    link: *grafana-home
-  ap_center:
-    dataRef: "test-data-large-cos"
-    label:
-      separator: "cr"
-      units: "ops"
-      decimalPoints: 0
-    fillcolorColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "semi-dark-green", level: 0}
-        - {color: "orange", level: 400}
-        - {color: "red", level: 800}
-    link: *grafana-home
+      thresholds: *ap
+
   ap_odessey:
-    dataRef: "test-data-small-sin"
+    dataRef: "ap_odessey"
     label:
-      separator: "colon"
-      units: "pps"
+      units: "ops"
       decimalPoints: 0
     labelColor:
       gradientMode: "hue"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 100}
-    link: *grafana-home
+      thresholds: *ap
+
+  ap_nebula:
+    dataRef: "ap_nebula"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_rocket:
+    dataRef: "ap_rocket"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
   ap_makerspace:
-    dataRef: "test-data-small-cos"
+    dataRef: "ap_makerspace"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_gizmo:
+    dataRef: "ap_gizmo"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_silentroom:
+    dataRef: "ap_silentroom"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_keuken:
+    dataRef: "ap_keuken"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_reception:
+    dataRef: "ap_reception"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_orbit:
+    dataRef: "ap_orbit"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_bender:
+    dataRef: "ap_bender"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_arena:
+    dataRef: "ap_arena"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_dory:
+    dataRef: "ap_dory"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_grasvlakte:
+    dataRef: "ap_grasvlakte"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_poly:
+    dataRef: "ap_poly"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_front:
+    dataRef: "ap_front"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_center:
+    dataRef: "ap_center"
+    label:
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds: *ap
+
+  ap_back:
+    dataRef: "ap_back"
     label:
       separator: "cr"
-      units: "none"
+      units: "ops"
       decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "#888888", level: 0}
-        - {color: "light-blue", level: 100}
+      labelColor:
+        gradientMode: "hue"
+        thresholds: *ap
